@@ -3,6 +3,7 @@ from keras.layers.advanced_activations import LeakyReLU
 from keras.layers.convolutional import UpSampling2D, Conv2D
 from tensorflow.keras.models import Sequential, Model, load_model
 from tensorflow.keras.optimizers import Adam
+from tensorflow.python.eager.context import get_config
 import numpy as np
 from PIL import Image
 import os
